@@ -1,0 +1,67 @@
+.casa {
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 65% 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.segundo-nivel {
+    background-color: red;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ventana {
+    background-color: lightblue;
+    width: 90%;
+    height: 90%;
+}
+.primer-nivel {
+    background-image: url("..asets/pintura.jpg");
+    background-size: 50%;
+
+    border-top: 5px solid black;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.puerta {
+    background-color: brown;
+    width: 80px;
+    height: 130px;
+}
+.garage {
+    background-color: purple;
+    background-size: 50%;
+    
+    border-left: 5px solid black;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.porton {
+    background-color: white;
+    width: 90%;
+    height: 80%;
+}
+.techo {
+    background-color: green;
+}
+.pared {
+    background-color: gray;
+    width: 100%;
+    height: 25px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.pared div {
+    border: 1px solid black;
+}
