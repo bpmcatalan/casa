@@ -9,49 +9,19 @@
     grid-template-rows: 1fr 1fr;
 }
 .segundo-nivel {
-    background-color: red;
+    background-image: url("../assets/segundo.webp");
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .ventana {
-    background-color: lightblue;
+    background-image: url("../assets/ventana.jpg");
     width: 90%;
     height: 90%;
 }
-.primer-nivel {
-    background-image: url("..asets/pintura.jpg");
-    background-size: 50%;
-
-    border-top: 5px solid black;
-
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-.puerta {
-    background-color: brown;
-    width: 80px;
-    height: 130px;
-}
-.garage {
-    background-color: purple;
-    background-size: 50%;
-    
-    border-left: 5px solid black;
-
-    display: flex;
-    align-items: end;
-    justify-content: center;
-}
-.porton {
-    background-color: white;
-    width: 90%;
-    height: 80%;
-}
 .techo {
-    background-color: green;
+    background-image: url("../assets/techo.jpg");
 }
 .pared {
     background-color: gray;
@@ -62,6 +32,41 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
-.pared div {
+.primer-nivel {
+    background-image: url("../assets/primer.jpg");
+    
+    background-size: 50%;
+
+    border-top: 5px solid black;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.puerta {
+    background-image: url("../assets/puerta1.jpg");
+    width: 80px;
+    height: 160px;
+
+}
+.garage {
+    background-image: url("../assets/garage.jpg");
+    background-size: 50%;
+    
+    border-left: 5px solid black;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.porton {
+    background-image: url("../assets/porton2.jpg");
+    width: 90%;
+    height: 80%;
+}
+.pared div{
+   background-image: url("../assets/techo.jpg");
     border: 1px solid black;
+    width: 60px;
+    
 }
